@@ -10,6 +10,6 @@ router.get("/login",(req,res)=>{
 })
 
 router.get("/logout",(req,res)=>{
-    res.send("Login Routes Called");
+    res.send("Logout Routes Called");
 })
 export default router;
