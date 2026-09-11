@@ -6,6 +6,7 @@ router.get("/signup",(req,res)=>{
 })
 
 router.get("/login",(req,res)=>{
+
     res.send("Login Routes Called");
 })
 
